@@ -1,0 +1,144 @@
+Pattern 1
+Input:
+#include <iostream>                                   
+
+using namespace std;
+
+void printpattern1(int n)
+{
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+    
+}
+
+int main()
+{
+   int n;
+   cin>>n;
+   printpattern1(n);
+
+    return 0;
+}
+
+Output:
+4
+****
+****
+****
+****
+
+Pattern 2
+Input:
+#include <iostream>
+
+using namespace std;
+
+void printpattern1(int m)
+{
+    for(int i=0; i<m; i++)
+    {
+        for(int j=0; j<=i; j++)
+        {
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+    
+}
+
+int main()
+{
+   int m;
+   cin>>m;
+  
+   printpattern1(m);
+
+    return 0;
+}
+
+Output:
+3
+*
+**
+***
+
+Patter 3
+Input:
+#include <iostream>
+
+using namespace std;
+
+void printpattern1(int m)
+{
+    for(int i=1; i<=m; i++)
+    {
+        for(int j=1; j<=i; j++)
+        {
+            cout<< j <<" ";
+        }
+        cout<<endl;
+    }
+    
+}
+
+int main()
+{
+   int m;
+   cin>>m;
+  
+   printpattern1(m);
+
+    return 0;
+}
+Output:
+5
+12
+123
+1234
+12345
+
+Pattern 4
+Input:
+#include <iostream>
+
+using namespace std;
+
+void printpattern1(int m)
+{
+    for(int i=1; i<=m; i++)
+    {
+        for(int j=1; j<=i; j++)
+        {
+            cout<< i <<" ";
+        }
+        cout<<endl;
+    }
+    
+}
+
+int main()
+{
+   int m;
+   cin>>m;
+  
+   printpattern1(m);
+
+    return 0;
+}
+Output:
+4
+1
+22
+333
+4444
+
+
+
+
+
